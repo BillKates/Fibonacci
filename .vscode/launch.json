@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "スクリプトの実行: test",
+        "type": "node",
+        "request": "launch",
+        "program": "${workspaceFolder}/lib.js", // テストスクリプトのパスを指定
+        "args": ["test"], // テストを行う引数が必要な場合
+        "cwd": "${workspaceFolder}",
+        "console": "integratedTerminal"
+      }
+    ]
+  }
