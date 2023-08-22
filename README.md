@@ -1,2 +1,2 @@
-# uranai
+# fibonacci
 フィボナッチ数列
